@@ -1,5 +1,7 @@
 # Page title here
 
+This is a new paragraph.
+
 This is a paragraph.
 
 Both [internal](README.md) and [external](https://example.com) links work.
