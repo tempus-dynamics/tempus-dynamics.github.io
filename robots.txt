@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://platforms.tempusresearch.com/sitemap.xml.gz
+Sitemap: /sitemap.xml.gz
