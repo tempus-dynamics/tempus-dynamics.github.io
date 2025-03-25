@@ -1,6 +1,6 @@
 # Page title here
 
-This is a new paragraph.
+This is a new paragraph. Edit 2.
 
 This is a paragraph.
 
