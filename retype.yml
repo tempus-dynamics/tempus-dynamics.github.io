@@ -1,7 +1,6 @@
 input: .
 output: .retype
 url: https://platforms.tempusresearch.com/
-favicon: images/Tempus.ico
 branding:
   logo: images/TempusBlack.png
   logoDark: images/TempusWhite.png
