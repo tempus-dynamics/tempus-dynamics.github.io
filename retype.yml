@@ -1,11 +1,15 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: https://platforms.tempusresearch.com/
+favicon: images/Tempus.ico
 branding:
-  title: Project Name
+  logo: images/TempusBlack.png
+  logoDark: images/TempusWhite.png
   label: Docs
+meta:
+  title: " | Tempus Research"
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: API Docs
+  link: https://docs.tempusresearch.com/
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  copyright: "&copy; {{ year }} [Tempus Dynamics, LLC](https://tempusdynamics.com). All rights reserved."

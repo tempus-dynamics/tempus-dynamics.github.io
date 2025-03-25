@@ -1,0 +1,1 @@
+Public documentation for all Tempus Research platforms. Powered by [Retype](https://retype.com/).
