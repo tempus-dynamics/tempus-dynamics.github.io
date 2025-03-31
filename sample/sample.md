@@ -10,7 +10,7 @@ This is a new paragraph. Edit 2.
 
 This is a paragraph.
 
-Both [internal](index.md) and [external](https://example.com) links work.
+[External](https://example.com) links work.
 
 ![Your logo](images/Tempus.png)
 
