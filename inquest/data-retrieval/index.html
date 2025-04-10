@@ -9,32 +9,32 @@
     <meta name="generator" content="Retype 3.7.0">
 
     <!-- Primary Meta Tags -->
-    <title>Tempus Research | Tempus Research</title>
-    <meta name="title" content="Tempus Research | Tempus Research">
-    <meta name="description" content="Welcome to the Tempus Research documentation site!">
+    <title>Data Retrieval | Tempus Research</title>
+    <meta name="title" content="Data Retrieval | Tempus Research">
+    <meta name="description" content="Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://platforms.tempusresearch.com/">
+    <link rel="canonical" href="https://platforms.tempusresearch.com/inquest/data-retrieval/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://platforms.tempusresearch.com/">
-    <meta property="og:title" content="Tempus Research | Tempus Research">
-    <meta property="og:description" content="Welcome to the Tempus Research documentation site!">
+    <meta property="og:url" content="https://platforms.tempusresearch.com/inquest/data-retrieval/">
+    <meta property="og:title" content="Data Retrieval | Tempus Research">
+    <meta property="og:description" content="Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://platforms.tempusresearch.com/">
-    <meta property="twitter:title" content="Tempus Research | Tempus Research">
-    <meta property="twitter:description" content="Welcome to the Tempus Research documentation site!">
+    <meta property="twitter:url" content="https://platforms.tempusresearch.com/inquest/data-retrieval/">
+    <meta property="twitter:title" content="Data Retrieval | Tempus Research">
+    <meta property="twitter:description" content="Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=3.7.0.797631130088" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.797631130088" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.7.0.797631130088" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.7.0.797631130088" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.797631130088" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.797631130088" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -49,10 +49,10 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="grow-0 shrink-0 overflow-hidden">
-                                <img class="max-h-10 dark:hidden md:inline-block" src="images/tempusblack.png">
-                                <img class="max-h-10 hidden dark:inline-block" src="images/tempuswhite.png">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../images/tempusblack.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../images/tempuswhite.png">
                             </span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
                     </div>
@@ -165,13 +165,94 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="tempus-research" class="break-words">
+<doc-anchor-target id="data-retrieval" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tempus-research">#</doc-anchor-trigger>
-        <span>Tempus Research</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-retrieval">#</doc-anchor-trigger>
+        <span>Data Retrieval</span>
     </h1>
 </doc-anchor-target>
-<p>Welcome to the Tempus Research documentation site!</p>
+<doc-anchor-target id="api">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api">#</doc-anchor-trigger>
+        <span>API</span>
+    </h2>
+</doc-anchor-target>
+<p>Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID. Contact Tempus or see the API documentation for further details: <a href="https://docs.tempusresearch.com/">https://docs.tempusresearch.com/</a></p>
+<doc-anchor-target id="synapse-data-distribution">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#synapse-data-distribution">#</doc-anchor-trigger>
+        <span>Synapse Data Distribution</span>
+    </h2>
+</doc-anchor-target>
+<p>For projects run through the Synapse engine, Tempus provides a service of data distribution via spreadsheet files generated on a per-project and per-survey basis. In this format, each answer in the raw survey response data is flattened to the single, most relevant value: typically the coded value or the status of the answer.</p>
+<doc-anchor-target id="answer-statuses">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#answer-statuses">#</doc-anchor-trigger>
+        <span>Answer Statuses</span>
+    </h3>
+</doc-anchor-target>
+<p>In addition to specific responses, each survey question also records its status. During data distribution, these statuses may be customized per-project as specific codes such as <code v-pre>-1</code>, <code v-pre>-999</code>, <code v-pre>[Unanswered]</code>, <code v-pre>[Unseen]</code>, etc. The specific statuses and their meanings are detailed below.</p>
+<doc-anchor-target id="dropoff">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dropoff">#</doc-anchor-trigger>
+        <span>Dropoff</span>
+    </h4>
+</doc-anchor-target>
+<p>An answer has a status of Dropoff if the user did not progress far enough through a survey to encounter the question. For example, if a user only progresses to page 2 of a survey, all answers to questions on page 3 and beyond will be returned with a status of Dropoff.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>When pulling responses from the API, a particular alias can be considered to have a status of Dropoff if it is not included the Answers object.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="unseen">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unseen">#</doc-anchor-trigger>
+        <span>Unseen</span>
+    </h4>
+</doc-anchor-target>
+<p>An answer has a status of Unseen if custom logic within the survey prevented the question from being rendered. For example, if question B is only rendered when the response to question A is Yes/1 then for users who responded No/0 to question A, answers to question B will be returned with a status of Unseen.</p>
+<doc-anchor-target id="unanswered">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#unanswered">#</doc-anchor-trigger>
+        <span>Unanswered</span>
+    </h4>
+</doc-anchor-target>
+<p>An answer has a status of Unanswered if the question was rendered but the user did not provide a response.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>In some scenarios, it is not possible to distinguish between a negative and non-response. In such cases, the Unanswered status is used as the default answer value. See <a href="../question-types/">Question Types</a> for more details.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="other-customizations">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#other-customizations">#</doc-anchor-trigger>
+        <span>Other Customizations</span>
+    </h3>
+</doc-anchor-target>
+<p>Other customizations of data distribution are available upon request. Requirements for data distribution files should be fully detailed and documented before the launch of a project to ensure that the request can be fulfilled.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -179,6 +260,27 @@
                             </div>
                             <footer class="clear-both">
                             
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../inquest/data-collection/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Data Collection</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../inquest/question-types/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Question Types</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
                             </footer>
                         </main>
                 
@@ -217,6 +319,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Tempus Research", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Data Retrieval", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
