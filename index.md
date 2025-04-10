@@ -1,3 +1,7 @@
+---
+label: "Tempus Research"
+layout: page
+order: 1
+---
 # Tempus Research
-
-[Internal link](sample)
+Welcome to the Tempus Research documentation site!
