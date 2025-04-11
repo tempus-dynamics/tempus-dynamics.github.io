@@ -15,7 +15,7 @@ The specific name of a particular relationship, which will be displayed in the a
 A generic role that a particular relationship represents. This value can be used for generalizing more specific descriptions, such as combining `father` and `mother` descriptions under one `parent` role.
 ==- Linked Relationships
 In most circumstances, one or more linked relationships may be defined for validation purposes (e.g. `parent` & `child`). A relationship may also be linked with itself (e.g. `sibling` & `sibling`). When a relationship is edited via the admin portal, it will not be considered valid unless Description 1 is a linked relationship to Description 2 and vice versa, or both are ["Other" relationships](/nexus/admin-portal/participant-relationships.md#other-relationships).
-==-Position
+==- Position
 For validation purposes, each description may be configured such that it will only be permitted in a specific position (i.e. as Description 1 or Description 2). This can be used to strictly limit parents to the first position and children to the second position.
 ==-
 

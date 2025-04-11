@@ -9,7 +9,7 @@ The participant details page provides a view to edit and access participant prof
 Fields must be one of the built-in properties described below or a custom property defined for the circle. The layout can be configured to group properties together with headings for each section, or to order fields individually on the page in a 12-column grid system.
 
 ## Common Built-In Properties
-A number of built-in properties are predefined and available for use in any circle. Any combination of the below properties may be configured for read-only view or editing in both the admin portal and participant dashboard.
+A number of built-in properties are predefined and available for use in any circle. Any combination of the below properties may be configured for read-only view or editing in both the admin portal and [participant dashboard](/nexus/participant-dashboard.md).
 
 !!!warning
 Account status and participant status serve very similar roles in terms of Nexus' automation, but account status is entirely managed and controlled at a system-wide level whereas participant status is set according to your research protocol or other registry needs and may also be manually managed by administrators.

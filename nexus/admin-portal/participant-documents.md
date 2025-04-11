@@ -23,7 +23,7 @@ Deleted files only have a brief soft-delete window in which they may be recovere
 The visibility level of a file indicates who has access to a file from among the following:
 
 - **Public** - the file is available on a public page
-- **Participant** - the file is available on the [participant dashboard](/nexus/participant-portal/participant-dashboard.md)
+- **Participant** - the file is available on the [participant dashboard](/nexus/participant-dashboard.md)
 - **Admin** - the file is only available in the admin portal
 
 ## Malware Scanning

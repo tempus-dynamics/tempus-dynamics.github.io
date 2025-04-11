@@ -50,7 +50,7 @@ Submitting an event without completing the associated survey may lead to unexpec
 The `Block` control behaves as described in the [Block](#block) section above. If more than one instance of the same task is assigned, all instances will be blocked. You may initiate the block from any active or completed task, but only active tasks will be blocked.
 
 #### Invalidate
-The `Invalidate` control is available for any completed task. Invalidation of an event will cause our automated assignment systems to ignore that event instance in its entirety. Any notifications or other effects triggered by this instance will not be undone, but it may impact future event assignments. Invalidated events will be hidden from the [participant dashboard](/nexus/participant-portal/participant-dashboard.md) but shown with a red highlight on the tasks page.
+The `Invalidate` control is available for any completed task. Invalidation of an event will cause our automated assignment systems to ignore that event instance in its entirety. Any notifications or other effects triggered by this instance will not be undone, but it may impact future event assignments. Invalidated events will be hidden from the [participant dashboard](/nexus/participant-dashboard.md) but shown with a red highlight on the tasks page.
 
 ![Invalidated event row in the admin portal.](/nexus/images/invalidated-task.png)
 
