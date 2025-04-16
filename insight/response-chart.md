@@ -6,7 +6,8 @@ order: -1
 # Response Chart
 
 Example Indicated Interest in Study chart
-		IMAGE
+		
+![Availability interface.](/insight/images/InterestPieChart.png)
 
  - The chart above displays various responses to the invitation email.
 	 -   In this example we can see that 7.3% of those invited have responded Yes to the invite, 1.2% have responded No, and 91.5% have not yet responded to the invite emails.
