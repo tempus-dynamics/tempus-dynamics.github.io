@@ -26,5 +26,29 @@ You can also easily look at the sequence level completion rate for your study fr
 
 ![](../images/batch4.png)
 
+### Copy and Paste from history
+
+You can use your batch history to copy and paste and/or modify any previous batch criteria to your batch request form.
+
+Steps:
+
+Open your batch history (there is a link in your invite and reminder email as well as on the batch request form).
+
+![](../images/batch5.png)
+
+Click on that previous batch request to show the details.
+
+You can now select the previous criteria and copy it onto your clipboard with CTRL-C.
+
+![](../images/batch6.png)
+
+Then in the batch request form you can past with CTRL-V.
+
+![](../images/batch7.png)
+
+You can now modify the criteria or leave as is for the existing batch request.
+
+
+
 
 
