@@ -20,7 +20,7 @@ Here you will see the criteria used for that batch request, how many available a
 
 You can have multiple different batch criteria, and if your project needs these setup just let us know and we will add batch history templates that you can use.
 
-## Synapse Admin Portal Sequences
+### Synapse Admin Portal Sequences
 
 You can also easily look at the sequence level completion rate for your study from the Sequences tab.
 
