@@ -9,6 +9,6 @@ The project details page provides links to project-specific interfaces and a hig
 
  - Sequences
  - Authorziers
- -Files
+ - Files
 
  ![project details.](/synapse/images/projectdetails.png)
