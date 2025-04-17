@@ -10,3 +10,5 @@ Use the link in your email to open your study batch history.
 
 Your batch history researcher view is in the Synapse Admin Portal and will look similar to the one below.
 
+![](../images/batch2.png)
+
