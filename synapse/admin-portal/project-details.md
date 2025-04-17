@@ -10,4 +10,4 @@ The project details page provides links to project-specific interfaces and a hig
  - Sequences
  - Authorziers
 
-![Figure 1: The project details interface.](synapse/images/projectdetails.png)
+![Figure 1: The project details interface.](/synapse/images/projectdetails.png)
