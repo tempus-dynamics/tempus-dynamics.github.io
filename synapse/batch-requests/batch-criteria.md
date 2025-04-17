@@ -39,3 +39,31 @@ Age in years by authorizer or dependent examples
     - criteria: **and dependent age in years < 15.833 order by dependent age in years desc**
     - example: youngest first with a requested age range between 2 and 4 years
     - criteria: **and dependent age in years between 2 and 4 order by dependent age in years asc**
+
+### Custom project properties
+
+Your study may include custom properties for authorizer and/or dependents. This will be setup as part of your study eligibility and used to filter, sort, prioritize your analysis as well as batching order.
+
+Common custom property examples
+
+- sex
+- diagnosis
+- zipcode
+- distance from clinic
+- race
+- ethnicity
+- language_level
+
+The Tempus team will assist you in setting up your custom batch criteria based on these properties.
+
+Examples
+
+- your study may need to focus on getting more female dependents with ASD
+
+    - criteria: and dependent sex = 'female' and dependent diagnosis = 'ASD'
+
+- if you needed to batch by language levels of 1 and 2 or 3 and 4
+
+    - criteria: and dependent language_level in (1, 2)
+
+    - criteria: and dependent language_level in (3, 4)
