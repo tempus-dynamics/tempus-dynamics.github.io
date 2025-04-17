@@ -59,11 +59,7 @@ The Tempus team will assist you in setting up your custom batch criteria based o
 Examples
 
 - your study may need to focus on getting more female dependents with ASD
-
     - criteria: and dependent sex = 'female' and dependent diagnosis = 'ASD'
-
 - if you needed to batch by language levels of 1 and 2 or 3 and 4
-
     - criteria: and dependent language_level in (1, 2)
-
     - criteria: and dependent language_level in (3, 4)
