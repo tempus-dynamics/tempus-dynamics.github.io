@@ -11,4 +11,4 @@ The projects page serves as your home page within the Synapse Admin Portal. This
  - **Inactive** - the project has been completed and is now disabled
  - **Testing** - the project is in a testing state, which may or may not be functional
 
- ![proejct table.](/synapse/images/projectstable.png)
+![Figure 1: The projects table.](../images/projectstable.png)

@@ -9,8 +9,8 @@ The Sequences interface lists each of the sequences within a project, including 
 
 Typically, a sequence corresponds to a specific "action" within the project, such as the sending of the initial interest email, assignment of a survey, awarding of an incentive, or completion of the project. Other sequence types may be used for more complex and custom functionality as the needs of the specific project dictate.
 
-![sequences](../images/sequences1.png)
+![Figure 1: Sequences list.](../images/sequences1.png)
 
 The sequence details page provides more specific information including a dashboard/codebook link (for surveys), the assignment of the sequence, redirect links (if any), response counts, and a list of email communications used in the project. Clicking on the name of a specific communication opens a new tab with a preview of the email template's contents.
 
-![alt text](../images/sequences2.png)
+![Figure 2: Sequence details.](../images/sequences2.png)
