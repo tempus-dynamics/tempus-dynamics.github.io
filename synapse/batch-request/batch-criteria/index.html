@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798212429962">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798212499523">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.7.0.798212429962" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.7.0.798212499523" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.798212429962" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.798212499523" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.798212429962" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.798212499523" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -197,46 +197,32 @@
 <ul>
 <li><p>authorizer max age in study of 26 years</p>
 <ul>
-<li><p>if your study needs 2 months time then we would max age at batch use 25.833 years</p>
-</li>
-<li><p>criteria: <strong>and authorizer age in years &lt; 25.833</strong></p>
-</li>
+<li>if your study needs 2 months time then we would max age at batch use 25.833 years</li>
+<li>criteria: <strong>and authorizer age in years &lt; 25.833</strong></li>
 </ul>
 </li>
 <li><p>dependent max age of 14 years</p>
 <ul>
-<li><p>again a 2 month time buffer would use 13.833 years</p>
-</li>
-<li><p>criteria: <strong>and dependent age in years &lt; 13.833</strong></p>
-</li>
+<li>again a 2 month time buffer would use 13.833 years</li>
+<li>criteria: <strong>and dependent age in years &lt; 13.833</strong></li>
 </ul>
 </li>
 <li><p>age ranges uses BETWEEN</p>
 <ul>
-<li><p>if your batching is targeting a specific age range for example 9 years to 11 years: BETWEEN 9 and 10.833</p>
-</li>
-<li><p>again the max age would still need the buffer from invite</p>
-</li>
-<li><p>criteria: <strong>and dependent age in years BETWEEN 9 and 10.833</strong></p>
-</li>
+<li>if your batching is targeting a specific age range for example 9 years to 11 years: BETWEEN 9 and 10.833</li>
+<li>again the max age would still need the buffer from invite</li>
+<li>criteria: <strong>and dependent age in years BETWEEN 9 and 10.833</strong></li>
 </ul>
 </li>
 <li><p>order by</p>
 <ul>
-<li><p>you can also order by age</p>
-</li>
-<li><p>this allows you for example to invite within an age range or a max age but by oldest or youngest first</p>
-</li>
-<li><p>this will typically be used for projects with limited eligible participants and the need to invite by the oldest first to reduce the number of participants who age out</p>
-</li>
-<li><p>example: need to invite dependents up to the max age of the study of 16 years, with order by oldest first</p>
-</li>
-<li><p>criteria: <strong>and dependent age in years &lt; 15.833 order by dependent age in years desc</strong></p>
-</li>
-<li><p>example: youngest first with a requested age range between 2 and 4 years</p>
-</li>
-<li><p>criteria: <strong>and dependent age in years between 2 and 4 order by dependent age in years asc</strong></p>
-</li>
+<li>you can also order by age</li>
+<li>this allows you for example to invite within an age range or a max age but by oldest or youngest first</li>
+<li>this will typically be used for projects with limited eligible participants and the need to invite by the oldest first to reduce the number of participants who age out</li>
+<li>example: need to invite dependents up to the max age of the study of 16 years, with order by oldest first</li>
+<li>criteria: <strong>and dependent age in years &lt; 15.833 order by dependent age in years desc</strong></li>
+<li>example: youngest first with a requested age range between 2 and 4 years</li>
+<li>criteria: <strong>and dependent age in years between 2 and 4 order by dependent age in years asc</strong></li>
 </ul>
 </li>
 </ul>
