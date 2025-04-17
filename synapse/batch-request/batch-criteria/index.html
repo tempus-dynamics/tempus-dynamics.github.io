@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798212597136">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798212823477">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -30,11 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.7.0.798212597136" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.7.0.798212823477" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.798212597136" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.7.0.798212823477" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.798212597136" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.7.0.798212823477" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -223,6 +223,40 @@
 <li>criteria: <strong>and dependent age in years &lt; 15.833 order by dependent age in years desc</strong></li>
 <li>example: youngest first with a requested age range between 2 and 4 years</li>
 <li>criteria: <strong>and dependent age in years between 2 and 4 order by dependent age in years asc</strong></li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="custom-project-properties">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-project-properties">#</doc-anchor-trigger>
+        <span>Custom project properties</span>
+    </h3>
+</doc-anchor-target>
+<p>Your study may include custom properties for authorizer and/or dependents. This will be setup as part of your study eligibility and used to filter, sort, prioritize your analysis as well as batching order.</p>
+<p>Common custom property examples</p>
+<ul>
+<li>sex</li>
+<li>diagnosis</li>
+<li>zipcode</li>
+<li>distance from clinic</li>
+<li>race</li>
+<li>ethnicity</li>
+<li>language_level</li>
+</ul>
+<p>The Tempus team will assist you in setting up your custom batch criteria based on these properties.</p>
+<p>Examples</p>
+<ul>
+<li><p>your study may need to focus on getting more female dependents with ASD</p>
+<ul>
+<li>criteria: and dependent sex = &#x27;female&#x27; and dependent diagnosis = &#x27;ASD&#x27;</li>
+</ul>
+</li>
+<li><p>if you needed to batch by language levels of 1 and 2 or 3 and 4</p>
+<ul>
+<li><p>criteria: and dependent language_level in (1, 2)</p>
+</li>
+<li><p>criteria: and dependent language_level in (3, 4)</p>
+</li>
 </ul>
 </li>
 </ul>
