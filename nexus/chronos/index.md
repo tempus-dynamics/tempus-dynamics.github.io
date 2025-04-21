@@ -1,7 +1,7 @@
 ---
 label: "Chronos (Legacy)"
-exapnded: false
-order: -5
+expanded: false
+order: -6
 ---
 # Chronos (Legacy)
 Chronos is a scheduling service designed to facilitate scheduling of meetings between participants and administrators. Meetings will be added to digital calendar and automatically managed by the chronos@tempusdynamics.com account, which may be linked to an administrator's external calendar.

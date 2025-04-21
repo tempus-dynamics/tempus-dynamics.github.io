@@ -6,15 +6,15 @@ order: -1
 # Batch History
 Use the link in your email to open your study batch history.
 
-![Batch History](/synapse/images/batch_history_screenshot.png)
+![](/synapse/images/batch-history-screenshot.png)
 
 Your batch history researcher view is in the Synapse Admin Portal and will look similar to the one below.
 
-![](../images/batch2.png)
+![](/synapse/images/batch2.png)
 
 Clicking on a batch history row will open the details about that batch request.
 
-![](../images/batch3.png)
+![](/synapse/images/batch3.png)
 
 Here you will see the criteria used for that batch request, how many available authorizer groups and how many available dependents in your study are eligible to invite based on that criteria.
 
@@ -24,7 +24,7 @@ You can have multiple different batch criteria, and if your project needs these 
 
 You can also easily look at the sequence level completion rate for your study from the Sequences tab.
 
-![](../images/batch4.png)
+![](/synapse/images/batch4.png)
 
 ### Copy and Paste from history
 
@@ -34,17 +34,17 @@ Steps:
 
 Open your batch history (there is a link in your invite and reminder email as well as on the batch request form).
 
-![](../images/batch5.png)
+![](/synapse/images/batch5.png)
 
 Click on that previous batch request to show the details.
 
 You can now select the previous criteria and copy it onto your clipboard with CTRL-C.
 
-![](../images/batch6.png)
+![](/synapse/images/batch6.png)
 
 Then in the batch request form you can past with CTRL-V.
 
-![](../images/batch7.png)
+![](/synapse/images/batch7.png)
 
 You can now modify the criteria or leave as is for the existing batch request.
 

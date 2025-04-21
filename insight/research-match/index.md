@@ -1,6 +1,6 @@
 ---
-label: "Status Dashboard"
+label: "Research Match Reports"
+expanded: false
 redirect: /insight/research-match/status-dashboard.md
-icon: 'link'
-order: -6
+order: -3
 ---

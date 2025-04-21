@@ -11,12 +11,12 @@ Log into the [Synapse Admin Portal](https://synapse.tempusresearch.com/recontact
 
 Select the Batches from the Authorizers drop down
 
-![](../images/history1.png)
+![](/synapse/images/history1.png)
 
 Click on the Export to Excel button above the data grid.
 
-![](../images/history2.png)
+![](/synapse/images/history2.png)
 
 This will download to your PC default download location an excel file with your batch history.
 
-![](../images/history3.png)
+![](/synapse/images/history3.png)
