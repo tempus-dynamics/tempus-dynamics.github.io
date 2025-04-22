@@ -30,4 +30,8 @@ Sequence level activity is typically shown on a timeline as well as Responses ch
 
 Let's say we have a workflow that includes an Interest, Authorization and Contact Info sequences. Each sequence will have the timeline and responses chart as shown below.
 
-![alt text](../Images/dashboard2.png)
+![Interest Sequence](../Images/dashboard2.png)
+
+![Authorization Sequence](../Images/dashboard3.png)
+
+![Contact Info Sequence](../Images/dashboard4.png)
