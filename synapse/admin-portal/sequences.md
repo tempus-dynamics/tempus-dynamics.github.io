@@ -9,7 +9,9 @@ The Sequences interface lists each of the sequences within a project, including 
 
 Typically, a sequence corresponds to a specific "action" within the project, such as the sending of the initial interest email, assignment of a survey, awarding of an incentive, or completion of the project. Other sequence types may be used for more complex and custom functionality as the needs of the specific project dictate.
 
-*Bypassed users are typically only seen for projects or sequences that have been shut down after a specific time frame. This amount represents the number of users who were still active at the time the project or sequence was shut down.*
+!!!
+Bypassed users are typically only seen for projects or sequences that have been shut down after a specific time frame. This amount represents the number of users who were still active at the time the project or sequence was shut down.
+!!!
 
 ![Figure 1: Sequences list.](../images/sequences1.png)
 
