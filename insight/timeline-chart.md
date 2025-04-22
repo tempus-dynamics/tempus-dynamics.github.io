@@ -7,7 +7,7 @@ order: -2
 
 Example of an Interest Timeline chart
 		
-![Timeline Chart.](/insight/images/ResponseTimeline.png)
+![Timeline Chart](Images/ResponseTimeline.png)
 
  - The chart above displays the timeline and counts of when invitation and reminders emails were sent.
 	 -   When a participant receives an invitation email, they can respond "Yes" or "No" to learning more about the study.
