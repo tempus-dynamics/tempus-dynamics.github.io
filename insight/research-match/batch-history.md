@@ -17,3 +17,28 @@ Insight Timeline charts are all interactive
 hover detail example
 
 ![](../Images/batchhist2.png)
+
+zoom level example, change to Day
+
+![](../Images/batchhist3.png)
+
+hover detail example on the Day zoom level
+
+![](../Images/batchhist4.png)
+
+zoom Total will show counts by year
+
+![](../Images/batchhist5.png)
+
+legend entries can be toggled on/off by clicking on them
+
+![](../Images/batchhist6.png)
+
+specific date ranges can also be specified
+
+![](../Images/batchhist7.png)
+
+
+### Learn more about Research Match Batch Request
+
+[https://researchmatch-docs.tempusresearch.com/batch-request](https://researchmatch-docs.tempusresearch.com/batch-request)
