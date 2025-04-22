@@ -11,6 +11,8 @@ The authorizers tab lists a selection of customizable Researcher Views that prov
 
 Clicking on any row in the table opens a details panel within the researcher view that provides access to additional informational about the authorizer and dependent in two distinct tabs.
 
-*Editing functionality may be enabled on researcher views by request but is disabled by default.*
+!!!
+Editing functionality may be enabled on researcher views by request but is disabled by default.
+!!!
 
 ![Figure 2: The researcher view details panel.](../images/researcherview2.png)
