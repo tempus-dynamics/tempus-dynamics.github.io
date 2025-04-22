@@ -25,7 +25,7 @@ Example of an Interest Timeline chart
 
 Example of a Sequence Timeline chart
 
-![Timeline Chart.](/insight/images/SequenceTimeline.png)
+![Timeline Chart](Images/SequenceTimeline.png)
 
  - This example shows a timeline of study sequence completions.
 	 - In this case, an Authorization form for a clinical study.
