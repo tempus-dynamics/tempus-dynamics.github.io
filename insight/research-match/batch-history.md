@@ -39,6 +39,4 @@ specific date ranges can also be specified
 ![](../Images/batchhist7.png)
 
 
-### Learn more about Research Match Batch Request
-
-[https://researchmatch-docs.tempusresearch.com/batch-request](https://researchmatch-docs.tempusresearch.com/batch-request)
+### [Learn more about Research Match Batch Request](https://researchmatch-docs.tempusresearch.com/batch-request)
