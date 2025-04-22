@@ -23,7 +23,9 @@ Participants for your study will either be available to invite or have sequence 
 
 Sequence level activity is typically shown on a timeline as well as Responses chart.
 
-*If you have further questions about your Insight Status Dashboard contact [Ben@TempusDynamics.com](mailto:Ben@TempusDynamics.com)*
+!!!
+If you have further questions about your Insight Status Dashboard contact [Ben@TempusDynamics.com](mailto:Ben@TempusDynamics.com)
+!!!
 
 ### Example workflow and how Insight will display information for your study.
 
