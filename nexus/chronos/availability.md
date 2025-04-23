@@ -4,7 +4,7 @@ route: /nexus/chronos/availability
 order: -2
 ---
 # Availability
-The availability interface is provided to users with calendars setup through the Chronos system. From this page, you can manage your own schedule settings for each event linked to your account. To create a new event or change the events you have access to, please contact Tempus for assistance.
+The availability interface is provided to users with calendars setup through the Chronos system. From this page, you can manage your own schedule settings for each event linked to your account. To create a new event or change the events you have access to, please contact Tempus Dynamics for assistance.
 
 If you do not have any default hours or flexible hours set, users will not be able to schedule new appointments with you.
 

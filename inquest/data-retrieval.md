@@ -5,7 +5,7 @@ route: /inquest/data-retrieval
 # Data Retrieval
 
 ## API
-Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID. Contact Tempus or see the API documentation for further details: https://docs.tempusresearch.com/
+Data collected via the Inquest3 platform can always be pulled in its raw format via the Tempus Research API given a particular Survey ID. Contact Tempus Dynamics or see the API documentation for further details: https://docs.tempusresearch.com/
 
 ## Synapse Data Distribution
 

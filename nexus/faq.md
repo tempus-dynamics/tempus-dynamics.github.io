@@ -12,6 +12,6 @@ You can access all the necessary tools to test survey assignment in the Admin Po
 1. Click "Auto-Assign Surveys" to make sure all survey assignments are up-to-date.
 1. Check the participant's properties to make sure they meet the appropriate criteria for all surveys.
 1. Update any properties (if appropriate) to trigger the correct assignments (survey assignments are automatically re-evaluated whenever participant properties are changed).
-1. Contact Tempus to diagnose or resolve any lingering issues.
+1. Contact Tempus Dynamics to diagnose or resolve any lingering issues.
 
 ![Auto-Assign Surveys button.](/nexus/images/auto-assign-surveys.png)
