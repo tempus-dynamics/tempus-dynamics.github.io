@@ -6,13 +6,12 @@ order: -1
 
 ## What is the Insight Status Dashboard and how do I access it?
 
+
 The insight status dashboard is your live monitoring and reporting page for your project. It will show each sequence of your workflow along with information about that sequence.
 
-You can access your insight status dashboard by logging into the Synapse Admin Portal.
+You can access your insight status dashboard by logging into the [Synapse Admin Portal](https://synapse.tempusresearch.com/recontacting/projects).
 
-[https://synapse.tempusresearch.com/recontacting/projects](https://synapse.tempusresearch.com/recontacting/projects)
-
-Click on the study or project you wish to see details for, then click on the blue Dashboard link
+Click on the study or project you wish to see details for, then click on the blue Report link
 
 ![](../Images/dashboard1.png)
 
@@ -24,7 +23,9 @@ Participants for your study will either be available to invite or have sequence 
 
 Sequence level activity is typically shown on a timeline as well as Responses chart.
 
-*If you have further questions about your Insight Status Dashboard contact [Ben@TempusDynamics.com](mailto:Ben@TempusDynamics.com)*
+!!!
+If you have further questions about your Insight Status Dashboard contact [Ben@TempusDynamics.com](mailto:Ben@TempusDynamics.com)
+!!!
 
 ### Example workflow and how Insight will display information for your study.
 
