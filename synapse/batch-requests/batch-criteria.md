@@ -24,7 +24,7 @@ Age in years by authorizer or dependent examples
 - Authorizer max age in study of 26 years
     -   If your study needs 2 months time then we would max age at batch use 25.833 years
     -   Criteria: **and authorizer age in years < 25.833**     
-- Dpendent max age of 14 years
+- Dependent max age of 14 years
     - Again a 2 month time buffer would use 13.833 years
     - Criteria: **and dependent age in years < 13.833**
 - Age ranges uses BETWEEN
@@ -42,7 +42,7 @@ Age in years by authorizer or dependent examples
 
 ### Custom project properties
 
-Your study may include custom properties for authorizer and/or dependents. This will be setup as part of your study eligibility and used to filter, sort, prioritize your analysis as well as batching order.
+Your study may include custom properties for authorizer and/or dependents. This will be setup as part of your study eligibility and used to filter, sort, and prioritize your analysis as well as batching order.
 
 Common custom property examples
 
