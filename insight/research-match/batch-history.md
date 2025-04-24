@@ -6,7 +6,7 @@ order: -2
 
 How to understand your batch history, participant response and activity.
 
-Example Interest Timeline
+Example of Interest Timeline
 
 ![](/insight/images/batchhist1.png)
 

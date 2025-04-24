@@ -5,7 +5,7 @@ order: -2
 ---
 # Timeline Chart
 
-Example of an Interest Timeline chart
+Example: Interest Timeline chart
 		
 ![Timeline Chart](Images/ResponseTimeline.png)
 
@@ -23,7 +23,7 @@ Example of an Interest Timeline chart
      - 223 third reminders were sent (Interest Reminder 3).
      - 33 invites were accepted. (Interest Y).
 
-Example of a Sequence Timeline chart
+Example: Sequence Timeline chart
 
 ![Timeline Chart](Images/SequenceTimeline.png)
 

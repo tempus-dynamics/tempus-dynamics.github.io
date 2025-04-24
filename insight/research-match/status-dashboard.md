@@ -11,7 +11,7 @@ The insight status dashboard is your live monitoring and reporting page for your
 
 You can access your insight status dashboard by logging into the <a href="https://synapse.tempusresearch.com/recontacting/projects" target="_blank">Synapse Admin Portal</a>
 
-Click on the study or project you wish to see details for, then click on the blue Report link
+Click on the study or project you wish to see details for, then click on the blue Report link.
 
 ![](../Images/dashboard1.png)
 
