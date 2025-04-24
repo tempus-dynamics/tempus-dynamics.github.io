@@ -38,4 +38,4 @@ Specific date ranges can also be specified
 
 ![](/insight/images/batchhist7.png)
 
-[!ref Learn more about Research Match Batch Request](/synapse/batch-requests/index.md.md)
+[!ref Learn more about Research Match Batch Request](https://platforms.tempusresearch.com/synapse/batch-requests/)
