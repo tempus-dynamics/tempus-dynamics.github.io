@@ -32,21 +32,21 @@ You can use your batch history to copy and paste and/or modify any previous batc
 
 #### Steps:
 
-Open your batch history (there is a link in your invite and reminder email as well as on the batch request form).
+ - Open your batch history (there is a link in your invite and reminder email as well as on the batch request form).
 
 ![](/synapse/images/batch5.png)
 
-Click on that previous batch request to show the details.
+ - Click on that previous batch request to show the details.
 
-You can now select the previous criteria and copy it onto your clipboard with CTRL-C.
+ - You can now select the previous criteria and copy it onto your clipboard with CTRL-C.
 
 ![](/synapse/images/batch6.png)
 
-Then in the batch request form you can past with CTRL-V.
+ - Then in the batch request form you can past with CTRL-V.
 
 ![](/synapse/images/batch7.png)
 
-You can now modify the criteria or leave as is for the existing batch request.
+ - You can now modify the criteria or leave as is for the existing batch request.
 
 
 
