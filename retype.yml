@@ -8,7 +8,16 @@ branding:
 meta:
   title: " | Tempus Research"
 links:
+- text: About Us
+  icon: globe
+  target: blank
+  link: https://tempusdynamics.com/
 - text: API Docs
+  icon: link
+  target: blank
   link: https://docs.tempusresearch.com/
+- text: Contact Us
+  icon: mail
+  link: /contact.md
 footer:
   copyright: "&copy; {{ year }} [Tempus Dynamics, LLC](https://tempusdynamics.com). All rights reserved."

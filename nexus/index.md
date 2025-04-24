@@ -3,7 +3,7 @@ label: "Nexus"
 icon: cloud
 route: /nexus
 expanded: true
-order: -5
+order: -4
 ---
 # Nexus
 Nexus is the Tempus Research registry platform designed for managing user data in ongoing research projects. This section serves as a living document for all the latest Nexus features and best practices.

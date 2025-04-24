@@ -7,7 +7,7 @@ order: -6
 Chronos is a scheduling service designed to facilitate scheduling of meetings between participants and administrators. Meetings will be added to digital calendar and automatically managed by the chronos@tempusdynamics.com account, which may be linked to an administrator's external calendar.
 
 !!!danger
-The Chronos application is considered a legacy product and is no longer under active development. If you are interested in configuring new scheduling services for your Nexus registry, please contact Tempus to discuss alternative solutions.
+The Chronos application is considered a legacy product and is no longer under active development. If you are interested in configuring new scheduling services for your Nexus registry, please contact Tempus Dynamics to discuss alternative solutions.
 !!!
 
 ## Glossary

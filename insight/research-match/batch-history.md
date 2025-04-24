@@ -8,7 +8,7 @@ How to understand your batch history, participant response and activity.
 
 Example Interest Timeline
 
-![](../Images/batchhist1.png)
+![](/insight/images/batchhist1.png)
 
 Insight Timeline charts are all interactive
 
@@ -16,27 +16,26 @@ Insight Timeline charts are all interactive
 
 hover detail example
 
-![](../Images/batchhist2.png)
+![](/insight/images/batchhist2.png)
 
 zoom level example, change to Day
 
-![](../Images/batchhist3.png)
+![](/insight/images/batchhist3.png)
 
 hover detail example on the Day zoom level
 
-![](../Images/batchhist4.png)
+![](/insight/images/batchhist4.png)
 
 zoom Total will show counts by year
 
-![](../Images/batchhist5.png)
+![](/insight/images/batchhist5.png)
 
 legend entries can be toggled on/off by clicking on them
 
-![](../Images/batchhist6.png)
+![](/insight/images/batchhist6.png)
 
 specific date ranges can also be specified
 
-![](../Images/batchhist7.png)
+![](/insight/images/batchhist7.png)
 
-
-### [Learn more about Research Match Batch Request](https://researchmatch-docs.tempusresearch.com/batch-request)
+[!ref Learn more about Research Match Batch Request](/synapse/batch-requests/index.md.md)
