@@ -7,7 +7,7 @@ order: -2
 
 You can download your batch history following these steps.
 
-Log into the [Synapse Admin Portal](https://synapse.tempusresearch.com/recontacting/projects) and select your project
+Log into the <a href="https://synapse.tempusresearch.com/recontacting/projects" target="_blank">Synapse Admin Portal</a> and select your project
 
 Select the Batches from the Authorizers drop down
 
