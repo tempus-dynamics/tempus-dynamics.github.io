@@ -54,7 +54,7 @@ Common custom property examples
 - ethnicity
 - language_level
 
-The Tempus team will assist you in setting up your custom batch criteria based on these properties.
+The Tempus Dynamics team will assist you in setting up your custom batch criteria based on these properties.
 
 Examples
 

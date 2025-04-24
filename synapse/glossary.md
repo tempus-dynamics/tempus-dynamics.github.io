@@ -12,7 +12,7 @@ A project is the main container for a Synapse workflow, which contains an isolat
 A sequence is a unit of function or activity within the Synapse engine that define how participants progress through a project or workflow. Sequences may correspond to email communications, survey assignments, incentive awards, or other custom functionality within a project.
 
 !!!
-When building a new project, Tempus project coordinators will assist you in translating your research study requirements into discrete sequences. Many customization requests can be accommodated but may require additional implementation time depending upon complexity.
+When building a new project, Tempus Dynamics project coordinators will assist you in translating your research study requirements into discrete sequences. Many customization requests can be accommodated but may require additional implementation time depending upon complexity.
 !!!
 
 ## Authorizer
