@@ -30,7 +30,7 @@ You can also easily look at the sequence level completion rate for your study fr
 
 You can use your batch history to copy and paste and/or modify any previous batch criteria to your batch request form.
 
-Steps:
+#### Steps:
 
 Open your batch history (there is a link in your invite and reminder email as well as on the batch request form).
 

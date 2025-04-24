@@ -19,4 +19,4 @@ When building a new project, Tempus Dynamics project coordinators will assist yo
 An authorizer is an adult account holder that is contacted to participate in online research. In most cases, authorizers submit data on behalf of their own children or dependents, but they may also be the subjects of research if needed.
 
 ## Dependent
-A dependent is a child or legal dependent of an authorizer that is targeted as the subject of a resear.
+A dependent is a child or legal dependent of an authorizer that is targeted as the subject of a research.
