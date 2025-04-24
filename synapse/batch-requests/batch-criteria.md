@@ -11,9 +11,9 @@ Examples below for more complex batching requirements. Most projects will not ne
 
 ### Authorizers and Dependents definition
 
-Authorizers - these are typically parents, but not limited to just parents. They are anyone who is authorized to submit information for your study. An authorizer can also be an information provider, ie an outside reporter who is providing information like a grandparent or friend or teacher.
+[Authorizers](https://platforms.tempusresearch.com/synapse/glossary/#authorizer)
 
-Dependents - these are typically children in the family but can be anyone for whom an authorizer is supplying information about said dependent(s).
+[Dependents](https://platforms.tempusresearch.com/synapse/glossary/#dependent)
 
 ### Age criteria
 
