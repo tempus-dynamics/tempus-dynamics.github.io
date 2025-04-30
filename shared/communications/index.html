@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798837818231">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799355470439">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -32,11 +32,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.7.0.798837818231" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.799355470439" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.798837818231" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799355470439" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.798837818231" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799355470439" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.7.0.799355470439" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -266,7 +267,7 @@
 </figure>
 </p>
 <div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
+<table class="compact">
 <thead>
 <tr>
 <th style="text-align: right;">#</th>
@@ -348,7 +349,7 @@
         <span>Editing &amp; Publishing</span>
     </h2>
 </doc-anchor-target>
-<p>When editing communications and email templates, saving changes uses a two-phase process to allow in-progress edits to be saved and tested in a development environment before taking effect in production. In the context of communications, this first phase is referred to as <strong>staging</strong> and the second phase of moving changes to production is referred to as <strong>publishing</strong>. Staged/unpublished changes will be visually identified in the communication and email template tables by a green border around the component&#x27;s name.</p>
+<p>Editing communications and email templates uses a two-phase process to allow in-progress edits to be saved and tested in a development environment before taking effect in production. In the context of communications, this first phase is referred to as <strong>staging</strong> and the second phase of moving changes to production is referred to as <strong>publishing</strong>. Components with staged/unpublished changes will be visually identified in the communication and email template tables by a green border around the component&#x27;s name. Staged changes to a template will take immediate effect in the development environment, but changes will not be visible in production emails until they are published.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-red-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -365,68 +366,342 @@
         </div>
     </div>
 </div>
-<doc-anchor-target id="html-content">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#html-content">#</doc-anchor-trigger>
-        <span>HTML Content</span>
-    </h3>
-</doc-anchor-target>
-<p>Email templates utilize HTML to render message content. For convenience, both a Rich Text Editor and an HTML Editor have been provided to edit email templates, but due to limitations with the Rich Text Editor, more advanced formatting and styling may require using the HTML Editor. Recommended use cases are listed below:</p>
-<style>
-    .green-icon {
-        color: green;
-    }
-    .red-icon {
-        color: red;
-    }
-</style>
-<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
-        <span>Rich Text Editor</span>
-    </div>
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
-        <span>HTML Editor</span>
-    </div>
-    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
-<div class="green-icon">
-<ul>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg> This is sub-item 2.2</li>
-</ul>
-</div>
-<div class="red-icon">
-<ul>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM5.834 19.227A9.464 9.464 0 0 0 12 21.5a9.5 9.5 0 0 0 9.5-9.5 9.464 9.464 0 0 0-2.273-6.166ZM2.5 12a9.464 9.464 0 0 0 2.273 6.166L18.166 4.773A9.463 9.463 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> This is sub-item 2.4</li>
-</ul>
-</div>
-    </div>
-    <div class="px-5 py-3 docs-columns-content">
-<div class="green-icon">
-<ul>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> This is sub-item 2.2</li>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM5.834 19.227A9.464 9.464 0 0 0 12 21.5a9.5 9.5 0 0 0 9.5-9.5 9.464 9.464 0 0 0-2.273-6.166ZM2.5 12a9.464 9.464 0 0 0 2.273 6.166L18.166 4.773A9.463 9.463 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> This is sub-item 2.4</li>
-</ul>
-</div>
-<div class="red-icon">
-<ul>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M17.28 9.28a.75.75 0 0 0-1.06-1.06l-5.97 5.97-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l6.5-6.5Z"/><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> This is sub-item 2.2</li>
-<li><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1ZM5.834 19.227A9.464 9.464 0 0 0 12 21.5a9.5 9.5 0 0 0 9.5-9.5 9.464 9.464 0 0 0-2.273-6.166ZM2.5 12a9.464 9.464 0 0 0 2.273 6.166L18.166 4.773A9.463 9.463 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"/></g></g></svg> This is sub-item 2.4</li>
-</ul>
-</div>
-    </div>
-</div>
 <doc-anchor-target id="substitutions">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#substitutions">#</doc-anchor-trigger>
         <span>Substitutions</span>
     </h3>
 </doc-anchor-target>
+<p>Both the communications and the email template interface support personalization of email messages through the use of substitutions. A substitution can be added to an email template or the communication&#x27;s subject line, and each is specified by wrapping a pre-defined key or path in curly braces, e.g. <code v-pre>{key}</code> or <code v-pre>{container.key}</code>. Clicking the <strong>Substitutions</strong> button at the top of the left panel in the communications interface opens the substitutions table, where current example substitutions can be edited for testing purposes.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Substitutions are always enabled on the communications page but are disabled by default on the email template page. To test substitutions while editing a content template, be sure to enable substitutions at the top right.</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="../images/substitutions-table.png" alt="Substitutions table.">
+    <figcaption class="caption">Substitutions table.</figcaption>
+</figure>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Control</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Copy Control</td>
+<td>Click to copy the full substitution value (including braces).</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Substitution Key</td>
+<td>The unique key or path that defines the substitution.</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Value</td>
+<td>The current value of the substitution to be used for testing purposes. Click to edit the current value. (Modified values will not be saved.)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="substitution-templates">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#substitution-templates">#</doc-anchor-trigger>
+        <span>Substitution Templates</span>
+    </h4>
+</doc-anchor-target>
+<p>Depending upon the intended usage of a particular communication, different substitution values may be available for use. Substitution templates provide a convenient list of defined substitution values. <strong>Changing a communication&#x27;s substitution template does not inherently change which substitution values will be available when the communication is sent, only the values that will be available for testing purposes.</strong> The list of substitution templates is provided below, and helpful tooltips are also provided when hovering over each option in the editor. If you have questions about which template should be selected for a given communication please contact Tempus Dynamics for further assistance.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Branding</td>
+<td>For Branding email templates only.</td>
+</tr>
+<tr>
+<td>Chronos Admin</td>
+<td>For scheduling notifications and reminders to admins via the <a href="../../nexus/chronos/">Chronos scheduling system</a>.</td>
+</tr>
+<tr>
+<td>Chronos Participant</td>
+<td>For scheduling notifications and reminders to participants via the <a href="../../nexus/chronos/">Chronos scheduling system</a>.</td>
+</tr>
+<tr>
+<td>Email Verification</td>
+<td>For email verification notifications.</td>
+</tr>
+<tr>
+<td>Event Notification</td>
+<td>For notifications triggered by task completions.</td>
+</tr>
+<tr>
+<td>Event Reminder (Account-Holder)</td>
+<td>For task-specific reminder emails configured to send only once even if multiple instances of the same task are present.</td>
+</tr>
+<tr>
+<td>Event Reminder (Individual)</td>
+<td>For task-specific reminder emails configured to send for each instance of a given task.</td>
+</tr>
+<tr>
+<td>File Reminder</td>
+<td>For reminders triggered by unseen new files with a designated file tag.</td>
+</tr>
+<tr>
+<td>Incentive Email</td>
+<td>For incentive notification emails.</td>
+</tr>
+<tr>
+<td>Invitation Email</td>
+<td>For invitations to join an existing family.</td>
+</tr>
+<tr>
+<td>Password Reset</td>
+<td>For password reset notifications.</td>
+</tr>
+<tr>
+<td>Participant Communication</td>
+<td>Default template for individualized notifications and reminders.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="custom-substitutions">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-substitutions">#</doc-anchor-trigger>
+        <span>Custom Substitutions</span>
+    </h4>
+</doc-anchor-target>
+<p>If no substitutition template is specified or a selected template supports adding custom values, the substitution table will allow adding (and removing) custom substitutions.</p>
+<p><figure class="content-center">
+    <img src="../images/custom-substitutions.png" alt="Substitutions table with custom substitutions enabled.">
+    <figcaption class="caption">Substitutions table with custom substitutions enabled.</figcaption>
+</figure>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Control</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Add Custom Substitution</td>
+<td>Click to add a new custom substitution value.</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Container</td>
+<td>The name of a parent field that will contain the custom substitution. (If no substitution template is selected, a container value will not be set.)</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Custom Key</td>
+<td>The key or path of the custom substitution value.</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Delete</td>
+<td>Click to remove the custom substitution value.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-red-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-red-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M21.71 6.15L15.85.29c-.19-.18-.44-.29-.71-.29H6.86c-.27 0-.52.11-.71.29L.29 6.15c-.18.19-.29.44-.29.71v8.28c0 .27.11.52.29.71l5.86 5.86c.19.18.44.29.71.29h8.28c.27 0 .52-.11.71-.29l5.86-5.86a.99.99 0 00.29-.71V6.86c0-.27-.11-.52-.29-.71zM20 14.73L14.73 20H7.27L2 14.73V7.27L7.27 2h7.45L20 7.27v7.46z"></path>
+                    <path d="M11 12c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zM11.01 14c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Custom substitutions require additional configuration outside of the communications system to function as expected. Please contact Tempus Dynamics if you want to configure custom substitutions.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="html-content">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#html-content">#</doc-anchor-trigger>
+        <span>HTML Content</span>
+    </h3>
+</doc-anchor-target>
+<p>Email templates utilize HTML to render message content. For convenience, both a Rich Text Editor and an HTML Editor have been provided to edit email templates, but due to limitations with the Rich Text Editor, more advanced formatting and styling may require using the HTML Editor. The last editor used for a given email template will be saved, and reopening that template will default to using the last saved editor. Supported features of each editor are listed in the table below:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="compact">
+<thead>
+<tr>
+<th>Feature</th>
+<th style="text-align: center;">Rich Text Editor</th>
+<th style="text-align: center;">HTML Editor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General text editing</td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+</tr>
+<tr>
+<td>Basic formatting (e.g. bold, italics, underline, font color)</td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+</tr>
+<tr>
+<td>Simple links &amp; images</td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+</tr>
+<tr>
+<td>Copy-paste text with formatting</td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.5 12.75a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.25a.75.75 0 0 1-.75-.75Z"/></g></g></svg></td>
+</tr>
+<tr>
+<td>Advanced styling (e.g. buttons, tables, image styling)</td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M4.5 12.75a.75.75 0 0 1 .75-.75h13.5a.75.75 0 0 1 0 1.5H5.25a.75.75 0 0 1-.75-.75Z"/></g></g></svg></td>
+<td style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M21.03 5.72a.75.75 0 0 1 0 1.06l-11.5 11.5a.747.747 0 0 1-1.072-.012l-5.5-5.75a.75.75 0 1 1 1.084-1.036l4.97 5.195L19.97 5.72a.75.75 0 0 1 1.06 0Z"/></g></g></svg></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>HTML Limitations</h5>
+<p>Using the HTML Editor allows various customizations that are not possible with the Rich Text Editor, but due to security concerns and the limitations of email providers, there are still several major limitations to HTML content:</p>
+<ul>
+<li>Event attributes and script tags are not supported and will be removed from saved templates.</li>
+<li>CSS classes and style tags are not supported. All custom styles must be added in-line via the style attribute.</li>
+<li>HTML content cannot be guaranteed to render in exactly the same way in all email clients or apps. When designing a new message, always assume that fonts and colors may be overridden by a user&#x27;s email client or device.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="images">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#images">#</doc-anchor-trigger>
+        <span>Images</span>
+    </h4>
+</doc-anchor-target>
+<p>The Rich Text Editor includes an <strong>Add Image</strong> button that supports adding a URL and alt parameters, as well as specifying the absolute width and height of an image (in pixels). However, the HTML Editor supports more advanced image styling, including scaling width or height as a percentage of the recipient&#x27;s screen size. When considering how to include images in an email, keep in mind the following best practices:</p>
+<ul>
+<li>Many or most recipients will view email notifications on mobile devices, so images should be sized appropriately for smaller screens. (Using a style attribute including <code v-pre>max-width: 100%;</code> will ensure images scale to fit the recipient&#x27;s screen.)</li>
+<li>Images should never be enlarged beyond their inherent size or resolution.</li>
+<li>The alt attribute should always be included with an image so that screen readers will function appropriately.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Image Hosting</h5>
+<p>Images must already be hosted on public web pages in order to be used in email communications. You can host images via your own website or file hosting service, or Tempus Dynamics will provide hosting via a third-party service such as <a href="https://cloudinary.com/">Cloudinary</a>.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="links--buttons">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#links--buttons">#</doc-anchor-trigger>
+        <span>Links &amp; Buttons</span>
+    </h4>
+</doc-anchor-target>
+<p>The Rich Text Editor includes an <strong>Add Link</strong> button that supports adding a simple link and toggling whether to open in a new tab. Although this is sufficient for most email messages, in some scenarios it may be preferable to visually render the link as a button or configure other settings using the HTML Editor. Example use cases are provided below.</p>
+<doc-panels>
+   <doc-panel id="disable-click-tracking" collapsed>
+       <template #title>Disable Click Tracking</template>
+<p>Click tracking is automatically enabled by default for all URLs except mail to links. Adding <code v-pre>clicktracking=&quot;off&quot;</code> as the <strong>FIRST</strong> attribute to an <code v-pre>a</code> tag will disable click tracking for that specific URL. As a best practice, click tracking should be disabled for dynamic links that will be individualized to a specific user.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;a clicktracking=&quot;off&quot; href=&quot;https://tempusdynamics.com&quot;&gt;Link&lt;/a&gt;</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="url-substitution" collapsed>
+       <template #title>URL Substitution</template>
+<p>Dynamic links can be configured via the substitution feature so that different links can be conditionally replaced or individualized for specific users or circumstances. For example, the substitution templates for incentive and password reset emails include specific URL substitutions intended for this purpose. Substitutions may also be inserted into the middle of a URL as a route or query parameter.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<div class="codeblock-title">Full Substitution</div>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;a href=&quot;{substitution}&quot;&gt;Link&lt;/a&gt;</code></pre>
+</doc-codeblock></div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<div class="codeblock-title">Partial Substitution</div>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;a href=&quot;https://tempusdynamics.com/{substitution}&quot;&gt;Link&lt;/a&gt;</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="custom-styling" collapsed>
+       <template #title>Custom Styling</template>
+<p>Numerous style attributes are supported on links to customize the layout and appearance. In the example below, an outer <code v-pre>div</code> has been added to center the link, which has been styled to appear as a blue button with white text.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<div class="codeblock-title">Centered Button Link</div>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;div style=&quot;text-align: center&quot;&gt;
+    &lt;a href=&quot;https://tempusdynamics.com&quot; style=&quot;background-color: #3273DC; border: 1px solid #FFFFFF; border-radius: 5px; color: #FFFFFF !important; display: inline-block; font-size: 16px; line-height: 13px; padding: 13px; text-align: center; text-decoration: none&quot;&gt;Link&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="advanced-configuration-example-reset-password-button" collapsed>
+       <template #title>Advanced Configuration Example: Reset Password Button</template>
+<p>The example below combines various link configurations to create stylized &quot;Reset Password&quot; button.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<div class="codeblock-title">Button Link with Multiple Configurations</div>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;div style=&quot;text-align: center&quot;&gt;
+    &lt;a clicktracking=&quot;off&quot; href=&quot;{resetUrl}&quot; style=&quot;background-color: #3273DC; border: 1px solid #FFFFFF; border-radius: 5px; color: #FFFFFF !important; display: inline-block; font-size: 16px; line-height: 13px; padding: 13px; text-align: center; text-decoration: none&quot;&gt;Reset Password&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+</doc-panels>
 <doc-anchor-target id="testing">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#testing">#</doc-anchor-trigger>
         <span>Testing</span>
     </h3>
 </doc-anchor-target>
-<p>The communications interface includes a <strong>Test</strong> button</p>
+<p>The communications interface includes a <strong>Test</strong> button that allows users with edit permissions to send test copies of that communication to one or more recipients. The current substitution value settings will be applied when sending test emails. The <strong>Preview Source</strong> control at the top left can also be used to toggle between sending a test copy of the Staging or Production version of the communication.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -486,6 +761,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Communications (BETA)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Communications (BETA)", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
