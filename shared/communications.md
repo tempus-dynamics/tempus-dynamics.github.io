@@ -63,7 +63,7 @@ While the communication interface is in its current beta testing phase, the publ
 Both the communications and the email template interface support personalization of email messages through the use of substitutions. A substitution can be added to an email template or the communication's subject line, and each is specified by wrapping a pre-defined key or path in curly braces, e.g. `{key}` or `{container.key}`. Clicking the **Substitutions** button at the top of the left panel in the communications interface opens the substitutions table, where current example substitutions can be edited for testing purposes.
 
 !!!warning
-Substitutions are always enabled on the communications page but are disabled by default on the email template page. To test substitutions while editing a content template, be sure to enable substitutions at the top right.
+Substitutions are always enabled on the communications page but are disabled by default on the email template page. To test substitutions while editing a content template, be sure to enable substitutions at the top left.
 !!!
 
 ![Substitutions table.](/shared/images/substitutions-table.png)
